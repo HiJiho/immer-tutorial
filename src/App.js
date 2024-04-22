@@ -43,7 +43,7 @@ const App = () => {
 			});
 			nextId.current += 1;
 		},
-		[form.name, form.username, data] // [form, data]가 아닌 이유?
+		[form.name, form.username]
 	);
 
 	const onRemove = useCallback((id) => {
